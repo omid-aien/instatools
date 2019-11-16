@@ -26,7 +26,7 @@ class Child(Main):
 
         ## calculate fake followers
         if engagment >= 1:
-            fake_followers = "ندارد"
+            fake_followers = "None"
             real_followers = self.get_followrs_count()
         else:
             fake_followers = self.get_followrs_count() * engagment
